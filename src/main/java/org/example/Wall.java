@@ -6,7 +6,7 @@ import java.util.Optional;
 public class Wall implements Structure, CompositeBlock {
     private List<Block> blocks;
 
-    private Wall(List<Block> blocks) {
+    public Wall(List<Block> blocks) {
         this.blocks = blocks;
     }
 
