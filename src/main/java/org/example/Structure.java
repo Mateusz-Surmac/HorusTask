@@ -1,5 +1,8 @@
 package org.example;
 
+import java.util.List;
+import java.util.Optional;
+
 interface Structure {
     // zwraca dowolny element o podanym kolorze
     Optional<Block> findBlockByColor(String color);
